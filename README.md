@@ -9,6 +9,12 @@ El dataset busca imitar lo que se cree que será la competencia en cuanto a setu
 
 Las fotos y etiquetas se encuentran en el directorio [`esp/`](./esp/).
 
+## Resolución
+
+- B&N
+- 128 x 128
+- Sin postprocesado (Sin ecualización de histograma, aumento de contraste, reescalado, etc.)
+
 ## Resumen del dataset
 
 **Número total de fotos:** 598
