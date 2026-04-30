@@ -26,3 +26,11 @@ Las fotos y etiquetas se encuentran en el directorio [`esp/`](./esp/).
 | ¿Sector? | Izquierda | Centro | Derecha |
 |---|---:|---:|---:|
 | Cantidad | 80 | 138 | 51 |
+
+## Extra
+
+Por malos resultados en el entrenamiento, nos pusimos la capa y les regalamos este dataset también con [bounding boxes](./esp/bounding_boxes.txt). El archivo tiene el formato de:
+
+```txt
+{filename},{is_id_on_pic?},{bb_x(or -1)},{bb_y(or -1)},{bb_w(or -1)},{bb_h(or -1)}
+```
